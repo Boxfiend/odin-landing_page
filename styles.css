@@ -1,0 +1,31 @@
+body {
+    font-family: roboto;
+}
+
+header {
+    font-size: 24px;
+    Color: #F9FAF8;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header, .heroSection, footer{
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 15px;
+}
