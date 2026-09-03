@@ -19,6 +19,19 @@ img {
     height: auto;
 }
 
+li {
+    margin: 0;
+}
+
+footer {
+    color: white;
+    font-size: large;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
 .topSection, footer{
     background-color: #1F2937;
 }
@@ -45,20 +58,22 @@ img {
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 0px;
+    padding: auto;
 }
 
 .heroSection {
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
-    padding-bottom: 60px;
+    justify-content: space-around;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .heroLeft {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    padding-left: 40px;
+    margin: auto;
 }
 
 .heroRight {
@@ -83,9 +98,11 @@ img {
 }
 
 .infoSection {
-    padding-top: 30px;
     display: flex;
     flex-direction: column;
+    margin: 48px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .infoTitle {
@@ -101,4 +118,69 @@ img {
     gap: 20px;
     align-items: center;
     text-align: center;
+    justify-content: space-around;
+}
+
+.quoteSection {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.attribution {
+    display: flex;
+    font-weight: 300;
+    justify-content: flex-end;
+}
+
+.actionCall {
+    height: 100px;
+    width: 600px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.actionLeft {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.actionRight {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    flex-grow: 1;
+    background-color: transparent;
+}
+
+.actionButton {
+    border: 2px solid #F9FAF8;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: transparent;
 }
